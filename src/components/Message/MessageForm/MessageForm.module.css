@@ -1,0 +1,23 @@
+.messageForm {
+  grid-area: f;
+  background: var(--send-message-form);
+  display: flex;
+}
+
+.messageForm input {
+  width: 100%;
+  padding: 15px 10px;
+  margin: 0;
+  border-style: none;
+  background: var(--send-message-form);
+  font-weight: 200;
+
+}
+
+.messageForm input:focus {
+  outline-width: 0;
+}
+
+.messageForm input::placeholder {
+  color: var(--main-text-color);
+}

@@ -1,0 +1,41 @@
+.chatRoomForm {
+    grid-area: n;
+    padding: 0 5px;
+    background: var(--secondary-color);
+    color: var(--main-text-color);
+  }
+  
+.chatRoomForm form {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.chatRoomForm input {
+  width: 135px;
+  background: var(--secondary-color);
+}
+
+.chatRoomForm button {
+  background: var(--secondary-color);
+  color: var(--main-text-color);
+  border: 0;
+} 
+
+.chatRoomForm input::placeholder {
+  color: var(--main-text-color);
+  font-weight: 200;
+}
+
+.chatRoomForm input:focus {
+  outline-width: 0;
+}
+
+.chatRoomForm input {
+  border: 0;
+}
+
+.chatRoomForm button {
+  border: 0;
+}
